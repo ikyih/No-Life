@@ -1,0 +1,16 @@
+stop();
+xspeed = 0.4;
+info = "Roll over an object to find out more about it";
+colour2 = game.data.colour2;
+colour3 = game.data.colour3;
+colour4 = game.data.colour4;
+colour5 = game.data.colour5;
+colour6 = game.data.colour6;
+colour7 = game.data.colour7;
+colour8 = game.data.colour8;
+colour9 = game.data.colour9;
+colour10 = game.data.colour10;
+hat2 = game.data.hat2;
+hat3 = game.data.hat3;
+hat4 = game.data.hat4;
+hat5 = game.data.hat5;
