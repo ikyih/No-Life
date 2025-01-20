@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="41px" viewBox="0 0 52 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>52 copy 2</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="52-copy-2" transform="translate(0, 0.335)">
+            <rect id="Rectangle" stroke="#8F7651" fill="#E8C09E" x="11.5" y="11.1650391" width="29" height="28"></rect>
+            <polygon id="Rectangle-Copy-2" fill="#E8C09E" points="41 11 52 14.3372479 52 36.6627521 41 40"></polygon>
+            <path d="M41,11 L52,14.3372479 L52,36.6627521 L41,40 L41,11 Z M42,12.347 L42,38.652 L51,35.92 L51,15.079 L42,12.347 Z" id="Rectangle-Copy-2" fill="#8F7651" fill-rule="nonzero"></path>
+            <polygon id="Rectangle-Copy-3" fill="#E8C09E" transform="translate(5.5, 25.5) scale(-1, 1) translate(-5.5, -25.5)" points="0 11 11 14.3372479 11 36.6627521 0 40"></polygon>
+            <path d="M0,11 L11,14.3372479 L11,36.6627521 L0,40 L0,11 Z M1,12.347 L1,38.652 L10,35.92 L10,15.079 L1,12.347 Z" id="Rectangle-Copy-3" fill="#8F7651" fill-rule="nonzero" transform="translate(5.5, 25.5) scale(-1, 1) translate(-5.5, -25.5)"></path>
+            <polygon id="Rectangle-Copy-4" fill="#E8C09E" transform="translate(26, 5.5) scale(-1, 1) rotate(-90) translate(-26, -5.5)" points="20.5 -9.5 31.5 -6.0476746 31.5 17.0476746 20.5 20.5"></polygon>
+            <path d="M20.5,-9.5 L31.5,-6.0476746 L31.5,17.0476746 L20.5,20.5 L20.5,-9.5 Z M21.5,-8.138 L21.5,19.137 L30.5,16.313 L30.5,-5.314 L21.5,-8.138 Z" id="Rectangle-Copy-4" fill="#8F7651" fill-rule="nonzero" transform="translate(26, 5.5) scale(-1, 1) rotate(-90) translate(-26, -5.5)"></path>
+        </g>
+    </g>
+</svg>
