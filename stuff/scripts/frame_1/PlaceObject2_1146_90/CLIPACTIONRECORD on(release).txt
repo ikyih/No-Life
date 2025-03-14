@@ -1,0 +1,5 @@
+on(release){
+   #constants
+   0|_root
+   1|gotoAndStop
+}

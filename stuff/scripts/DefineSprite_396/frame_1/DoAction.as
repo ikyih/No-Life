@@ -1,1 +1,0 @@
-_root.hdesc = "Hatless";
