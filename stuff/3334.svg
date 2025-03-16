@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1080px" height="480px" viewBox="0 0 1080 480" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Rectangle 4</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M1080,0 L1080,480 L288,480 L288,294.001 L332.405315,294.002863 C353.728379,372.928382 425.832513,431 511.5,431 C613.948821,431 697,347.948821 697,245.5 C697,177.150163 660.033628,117.434285 605.003158,85.2546418 L605,0 L1080,0 Z M416.997599,85.8431619 C375.685937,110.348684 344.701386,150.432072 332.137455,197.999814 L200,198 C188.40202,198 179,207.40202 179,219 L179,480 L0,480 L0,0 L417,0 Z" id="Rectangle-4" fill="#999999"></path>
+    </g>
+</svg>
