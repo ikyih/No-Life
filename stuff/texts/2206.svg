@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:ffdec="https://www.free-decompiler.com/flash" xmlns:xlink="http://www.w3.org/1999/xlink" ffdec:objectType="text" height="43.45px" width="163.6px" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(1.0, 0.0, 0.0, 1.0, -2.2, -6.6)">
+    <g transform="matrix(1.0, 0.0, 0.0, 1.0, 0.0, 0.0)">
+      <use fill="#ffffff" height="43.45" transform="matrix(0.0439, 0.0, 0.0, 0.0439, 0.0, 39.0)" width="163.6" xlink:href="#font_Abadi_MT_Condensed_Extra_Bold_E0"/>
+      <use fill="#ffffff" height="43.45" transform="matrix(0.0439, 0.0, 0.0, 0.0439, 36.75, 39.0)" width="163.6" xlink:href="#font_Abadi_MT_Condensed_Extra_Bold_s0"/>
+      <use fill="#ffffff" height="43.45" transform="matrix(0.0439, 0.0, 0.0, 0.0439, 65.9, 39.0)" width="163.6" xlink:href="#font_Abadi_MT_Condensed_Extra_Bold_p0"/>
+      <use fill="#ffffff" height="43.45" transform="matrix(0.0439, 0.0, 0.0, 0.0439, 98.2, 39.0)" width="163.6" xlink:href="#font_Abadi_MT_Condensed_Extra_Bold_a0"/>
+      <use fill="#ffffff" height="43.45" transform="matrix(0.0439, 0.0, 0.0, 0.0439, 130.85, 39.0)" width="163.6" xlink:href="#font_Abadi_MT_Condensed_Extra_Bold__0"/>
+      <use fill="#ffffff" height="43.45" transform="matrix(0.0439, 0.0, 0.0, 0.0439, 162.4, 39.0)" width="163.6" xlink:href="#font_Abadi_MT_Condensed_Extra_Bold_o0"/>
+      <use fill="#ffffff" height="43.45" transform="matrix(0.0439, 0.0, 0.0, 0.0439, 194.15, 39.0)" width="163.6" xlink:href="#font_Abadi_MT_Condensed_Extra_Bold_l0"/>
+    </g>
+  </g>
+  <defs>
+    <g id="font_Abadi_MT_Condensed_Extra_Bold_E0">
+      <path d="M803.0 -45.0 L394.0 103.0 60.0 -11.0 60.0 -853.0 791.0 -853.0 791.0 -771.0 349.0 -771.0 349.0 -514.0 727.0 -514.0 727.0 -434.0 349.0 -434.0 349.0 -152.0 590.0 -59.0 803.0 -134.0 803.0 -45.0" fill-rule="evenodd" stroke="none"/>
+    </g>
+    <g id="font_Abadi_MT_Condensed_Extra_Bold_s0">
+      <path d="M618.0 -19.0 L313.0 102.0 10.0 8.0 41.0 -67.0 313.0 16.0 389.0 -13.0 389.0 -138.0 44.0 -250.0 44.0 -548.0 340.0 -615.0 622.0 -528.0 593.0 -453.0 335.0 -536.0 269.0 -517.0 269.0 -413.0 618.0 -301.0 618.0 -19.0" fill-rule="evenodd" stroke="none"/>
+    </g>
+    <g id="font_Abadi_MT_Condensed_Extra_Bold_p0">
+      <path d="M596.0 -126.0 L596.0 -411.0 450.0 -506.0 336.0 -506.0 336.0 -130.0 479.0 -61.0 596.0 -126.0 M336.0 362.0 L47.0 362.0 47.0 -589.0 489.0 -589.0 688.0 -462.0 688.0 -77.0 387.0 100.0 336.0 77.0 336.0 362.0" fill-rule="evenodd" stroke="none"/>
+    </g>
+    <g id="font_Abadi_MT_Condensed_Extra_Bold_a0">
+      <path d="M406.0 -87.0 L406.0 -446.0 296.0 -506.0 138.0 -506.0 138.0 -171.0 356.0 -60.0 406.0 -87.0 M695.0 76.0 L406.0 76.0 406.0 11.0 230.0 100.0 47.0 27.0 47.0 -589.0 309.0 -589.0 406.0 -542.0 406.0 -589.0 695.0 -589.0 695.0 76.0" fill-rule="evenodd" stroke="none"/>
+    </g>
+    <g id="font_Abadi_MT_Condensed_Extra_Bold__0">
+      <path d="M670.0 76.0 L567.0 76.0 567.0 -466.0 447.0 -529.0 336.0 -488.0 336.0 76.0 48.0 76.0 48.0 -589.0 336.0 -589.0 336.0 -574.0 460.0 -614.0 670.0 -517.0 670.0 76.0 M468.0 -638.0 L244.0 -722.0 184.0 -670.0 114.0 -713.0 262.0 -867.0 485.0 -783.0 545.0 -836.0 615.0 -792.0 468.0 -638.0" fill-rule="evenodd" stroke="none"/>
+    </g>
+    <g id="font_Abadi_MT_Condensed_Extra_Bold_o0">
+      <path d="M584.0 -98.0 L584.0 -508.0 310.0 -508.0 310.0 -99.0 445.0 -51.0 584.0 -98.0 M674.0 -48.0 L291.0 101.0 47.0 42.0 47.0 -589.0 674.0 -589.0 674.0 -48.0" fill-rule="evenodd" stroke="none"/>
+    </g>
+    <g id="font_Abadi_MT_Condensed_Extra_Bold_l0">
+      <path d="M347.0 76.0 L54.0 76.0 54.0 -853.0 347.0 -853.0 347.0 76.0" fill-rule="evenodd" stroke="none"/>
+    </g>
+  </defs>
+</svg>
