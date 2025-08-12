@@ -1,0 +1,66 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Symbol 294" itemID="689b8880-000000c4" lastModified="1703808239">
+     <timeline>
+          <DOMTimeline name="Symbol 294">
+               <layers>
+                    <DOMLayer name="Script Layer" color="#6be887">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <Actionscript>
+                                        <script>function camControl()
+{
+   parentColor.setTransform(camColor.getTransform());
+   var _loc4_ = sX / this._width;
+   var _loc3_ = sY / this._height;
+   _parent._x = cX - this._x * _loc4_;
+   _parent._y = cY - this._y * _loc3_;
+   _parent._xscale = 100 * _loc4_;
+   _parent._yscale = 100 * _loc3_;
+}
+function resetStage()
+{
+   var _loc2_ = {ra:100,rb:0,ga:100,gb:0,ba:100,bb:0,aa:100,ab:0};
+   parentColor.setTransform(_loc2_);
+   _parent._xscale = 100;
+   _parent._yscale = 100;
+   _parent._x = 0;
+   _parent._y = 0;
+}
+this._visible = false;
+var oldMode = Stage.scaleMode;
+Stage.scaleMode = "exactFit";
+var cX = Stage.width / 2;
+var cY = Stage.height / 2;
+var sX = Stage.width;
+var sY = Stage.height;
+Stage.scaleMode = oldMode;
+var camColor = new Color(this);
+var parentColor = new Color(_parent);
+this.onEnterFrame = camControl;
+camControl();
+this.onUnload = resetStage;
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 2" color="#e7f684">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 293" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="0.0" ty="0.0"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timeline>
+</DOMSymbolItem>

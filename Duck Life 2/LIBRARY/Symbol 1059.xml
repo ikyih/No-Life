@@ -1,0 +1,363 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Symbol 1059" itemID="689b8880-00000223" lastModified="1703808239">
+     <timeline>
+          <DOMTimeline name="Symbol 1059">
+               <layers>
+                    <DOMLayer name="Layer 1" color="#ae8f69">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 1058" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="286.0" ty="15.95"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <Actionscript>
+                                                  <script>on(release){
+   _root.clears = 1;
+   _root.clears2 = 1;
+   _root.gotoAndStop(9);
+}
+</script>
+                                             </Actionscript>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 2" color="#ddcbe9">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 1055" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="236.2" ty="23.9"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <Actionscript>
+                                                  <script>on(release){
+   _root.clears = 1;
+}
+</script>
+                                             </Actionscript>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 3" color="#f4942d">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 1051" centerPoint3DX="310.5" centerPoint3DY="-7.55">
+                                             <matrix>
+                                                  <Matrix tx="291.0" ty="-27.05" a="0.84454345703125" d="0.84454345703125"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <Actionscript>
+                                                  <script>onClipEvent(load){
+   chicksx = _root.chick._x;
+   chicksy = _root.chick._y;
+   chicksx2 = _root.chick2._x;
+   chicksy2 = _root.chick2._y;
+}
+on(release){
+   _root.resets = 1;
+   _root.go = 0;
+   _root.chick._x = chicksx;
+   _root.chick._y = chicksy;
+   _root.chick.mode = 1;
+   _root.chick.gotoAndStop(1);
+   _root.chick.xspeed = 0;
+   _root.chick.yspeed = 0;
+   _root.chick2._x = chicksx2;
+   _root.chick2._y = chicksy2;
+   _root.chick2.mode = 1;
+   _root.chick2.gotoAndStop(1);
+   _root.chick2.xspeed = 0;
+   _root.chick2.yspeed = 0;
+}
+on(rollOver){
+   _alpha = 50;
+}
+on(rollOut){
+   _alpha = 100;
+}
+</script>
+                                             </Actionscript>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 4" color="#a86f9a">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 1050" centerPoint3DX="255.0" centerPoint3DY="-9.75">
+                                             <matrix>
+                                                  <Matrix tx="240.0" ty="-27.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <Actionscript>
+                                                  <script>onClipEvent(load){
+   _root.go = 0;
+}
+onClipEvent(enterFrame){
+   if(_root.go == 0)
+   {
+      gotoAndStop(1);
+   }
+   if(_root.go == 1)
+   {
+      gotoAndStop(2);
+   }
+}
+on(release){
+   if(_root.go == 0)
+   {
+      _root.go = 1;
+   }
+   else if(_root.go == 1)
+   {
+      _root.go = 0;
+   }
+}
+on(rollOver){
+   _alpha = 50;
+}
+on(rollOut){
+   _alpha = 100;
+}
+</script>
+                                             </Actionscript>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 5" color="#c552ab">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 1047" centerPoint3DX="-25.9" centerPoint3DY="-0.45">
+                                             <matrix>
+                                                  <Matrix tx="-70.45" ty="-22.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <Actionscript>
+                                                  <script>on(release){
+   var newdepth = this._parent._parent.block6._parent.getNextHighestDepth();
+   var newname = "copy" + newdepth;
+   var prevname = "copy" + (newdepth - 1);
+   if(this._parent._parent.block6._parent[prevname] == undefined)
+   {
+      this._parent._parent.block6._parent[prevname] = this._parent._parent.block6;
+   }
+   this._parent._parent.block6.duplicateMovieClip(newname,newdepth);
+   this._parent._parent.block6._parent[newname]._x = -500;
+   this._parent._parent.block6._parent[newname]._y = -500;
+   this._parent._parent.block6._parent[newname].drag = 1;
+   mx.behaviors.DepthControl.bringToFront(this._parent);
+}
+</script>
+                                             </Actionscript>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 6" color="#2598d0">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 1046" centerPoint3DX="-125.9" centerPoint3DY="-0.45">
+                                             <matrix>
+                                                  <Matrix tx="-170.45" ty="-22.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <Actionscript>
+                                                  <script>on(release){
+   var newdepth = this._parent._parent.block5._parent.getNextHighestDepth();
+   var newname = "copy" + newdepth;
+   var prevname = "copy" + (newdepth - 1);
+   if(this._parent._parent.block5._parent[prevname] == undefined)
+   {
+      this._parent._parent.block5._parent[prevname] = this._parent._parent.block5;
+   }
+   this._parent._parent.block5.duplicateMovieClip(newname,newdepth);
+   this._parent._parent.block5._parent[newname]._x = -500;
+   this._parent._parent.block5._parent[newname]._y = -500;
+   this._parent._parent.block5._parent[newname].drag = 1;
+   mx.behaviors.DepthControl.bringToFront(this._parent);
+}
+</script>
+                                             </Actionscript>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 7" color="#ac469a">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 1045" centerPoint3DX="201.1" centerPoint3DY="-9.55">
+                                             <matrix>
+                                                  <Matrix tx="158.25" ty="-27.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <Actionscript>
+                                                  <script>on(release){
+   var newdepth = this._parent._parent.block4._parent.getNextHighestDepth();
+   var newname = "copy" + newdepth;
+   var prevname = "copy" + (newdepth - 1);
+   if(this._parent._parent.block4._parent[prevname] == undefined)
+   {
+      this._parent._parent.block4._parent[prevname] = this._parent._parent.block4;
+   }
+   this._parent._parent.block4.duplicateMovieClip(newname,newdepth);
+   this._parent._parent.block4._parent[newname]._x = -500;
+   this._parent._parent.block4._parent[newname]._y = -500;
+   this._parent._parent.block4._parent[newname].drag = 1;
+   mx.behaviors.DepthControl.bringToFront(this._parent);
+}
+</script>
+                                             </Actionscript>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 8" color="#4af5e2">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 1044" centerPoint3DX="102.4" centerPoint3DY="-3.4">
+                                             <matrix>
+                                                  <Matrix tx="90.0" ty="-27.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <Actionscript>
+                                                  <script>on(release){
+   var newdepth = this._parent._parent.block3._parent.getNextHighestDepth();
+   var newname = "copy" + newdepth;
+   var prevname = "copy" + (newdepth - 1);
+   if(this._parent._parent.block3._parent[prevname] == undefined)
+   {
+      this._parent._parent.block3._parent[prevname] = this._parent._parent.block3;
+   }
+   this._parent._parent.block3.duplicateMovieClip(newname,newdepth);
+   this._parent._parent.block3._parent[newname]._x = -500;
+   this._parent._parent.block3._parent[newname]._y = -500;
+   this._parent._parent.block3._parent[newname].drag = 1;
+   mx.behaviors.DepthControl.bringToFront(this._parent);
+}
+</script>
+                                             </Actionscript>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 9" color="#2ea7c3">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 1042" centerPoint3DX="65.7" centerPoint3DY="-9.9">
+                                             <matrix>
+                                                  <Matrix tx="22.85" ty="-27.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <Actionscript>
+                                                  <script>on(release){
+   var newdepth = this._parent._parent.block2._parent.getNextHighestDepth();
+   var newname = "copy" + newdepth;
+   var prevname = "copy" + (newdepth - 1);
+   if(this._parent._parent.block2._parent[prevname] == undefined)
+   {
+      this._parent._parent.block2._parent[prevname] = this._parent._parent.block2;
+   }
+   this._parent._parent.block2.duplicateMovieClip(newname,newdepth);
+   this._parent._parent.block2._parent[newname]._x = -500;
+   this._parent._parent.block2._parent[newname]._y = -500;
+   this._parent._parent.block2._parent[newname].drag = 1;
+   mx.behaviors.DepthControl.bringToFront(this._parent);
+}
+</script>
+                                             </Actionscript>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 10" color="#f599c2">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 1041" centerPoint3DX="-223.15" centerPoint3DY="-9.6">
+                                             <matrix>
+                                                  <Matrix tx="-266.0" ty="-27.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <Actionscript>
+                                                  <script>on(release){
+   var newdepth = this._parent._parent.block._parent.getNextHighestDepth();
+   var newname = "copy" + newdepth;
+   var prevname = "copy" + (newdepth - 1);
+   if(this._parent._parent.block._parent[prevname] == undefined)
+   {
+      this._parent._parent.block._parent[prevname] = this._parent._parent.block;
+   }
+   this._parent._parent.block.duplicateMovieClip(newname,newdepth);
+   this._parent._parent.block._parent[newname]._x = -500;
+   this._parent._parent.block._parent[newname]._y = -500;
+   this._parent._parent.block._parent[newname].drag = 1;
+   mx.behaviors.DepthControl.bringToFront(this._parent);
+}
+</script>
+                                             </Actionscript>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 11" color="#65f4c4" current="true" isSelected="true">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 1039" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="0.0" ty="-27.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,102 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Symbol 1021" itemID="689b8880-00000204" lastModified="1703808239">
+     <timeline>
+          <DOMTimeline name="Symbol 1021">
+               <layers>
+                    <DOMLayer name="Script Layer" color="#f812e3">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <Actionscript>
+                                        <script>dname = _root.namee;
+drun = "Run Lvl: " + Math.floor(_root.runlvl / 10);
+dswim = "Swim Lvl: " + Math.floor(_root.swilvl / 10);
+dfly = "Fly Lvl: " + Math.floor(_root.flylvl / 10);
+dclimb = "Climb Lvl: " + Math.floor(_root.clilvl / 10);
+denergy = "Energy Lvl: " + Math.floor(_root.stalvl / 10);
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 2" color="#b30ae4" layerType="mask" locked="true">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMShape isFloating="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#ffffff" alpha="1.0"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <strokes>
+                                                  <StrokeStyle index="1">
+                                                       <SolidStroke weight="1.0" scaleMode="normal">
+                                                            <fill>
+                                                                 <SolidColor color="#ff0000"/>
+                                                            </fill>
+                                                       </SolidStroke>
+                                                  </StrokeStyle>
+                                             </strokes>
+                                             <edges>
+                                                  <Edge fillStyle0="1" fillStyle1="0" strokeStyle="1" edges="! -3088 -759[ -3146 -701 -3146 -618| -3146 1723[ -3146 1806 -3088 1865[ -3029 1923 -2946 1923| -736 1923[ -653 1923 -595 1865[ -536 1806 -536 1723| -536 -618[ -536 -701 -595 -759[ -653 -818 -736 -818| -2946 -818[ -3029 -818 -3088 -759"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 3" color="#82d558" parentLayerIndex="1" locked="true">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 1020" name="chick" centerPoint3DX="-64.6" centerPoint3DY="110.1">
+                                             <matrix>
+                                                  <Matrix tx="-93.3" ty="73.25" a="2.83770751953125" d="2.83770751953125"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 4" color="#f247aa" parentLayerIndex="1" locked="true">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 997" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="25.8" ty="-6.45" a="1.253173828125" d="1.253173828125"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 5" color="#23a6e8" current="true" isSelected="true">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMShape isFloating="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#ffffff"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <strokes/>
+                                             <edges>
+                                                  <Edge fillStyle0="1" fillStyle1="0" strokeStyle="0" edges="! -766 -974| -2906 -974[ -3306 -974 -3306 -574| -3306 1666[ -3306 2066 -2906 2066| -766 2066[ -366 2066 -366 1666| -366 -574[ -366 -974 -766 -974"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timeline>
+</DOMSymbolItem>

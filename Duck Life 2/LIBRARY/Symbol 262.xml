@@ -1,0 +1,249 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Symbol 262" itemID="689b8880-000000b3" lastModified="1703808239">
+     <timeline>
+          <DOMTimeline name="Symbol 262">
+               <layers>
+                    <DOMLayer name="Layer 1" color="#f9c759">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMShape isFloating="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#ffffff" alpha="1.0"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="2">
+                                                       <SolidColor color="#00ccff" alpha="1.0"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="3">
+                                                       <SolidColor color="#000000" alpha="1.0"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <strokes>
+                                                  <StrokeStyle index="1">
+                                                       <SolidStroke weight="1.0" scaleMode="normal">
+                                                            <fill>
+                                                                 <SolidColor color="#000000"/>
+                                                            </fill>
+                                                       </SolidStroke>
+                                                  </StrokeStyle>
+                                             </strokes>
+                                             <edges>
+                                                  <Edge fillStyle0="1" fillStyle1="0" strokeStyle="1" edges="! 245 -348| 228 -363| 227 -365| 225 -366| 213 -372[ 185 -388 153 -385[ 112 -379 88 -346[ 62 -313 68 -272[ 73 -231 105 -206[ 127 -191 150 -187"/>
+                                                  <Edge fillStyle0="1" fillStyle1="2" strokeStyle="0" edges="! 150 -187[ 132 -206 128 -234[ 123 -271 146 -301[ 167 -332 205 -337[ 234 -340 256 -327"/>
+                                                  <Edge fillStyle0="1" fillStyle1="0" strokeStyle="1" edges="! 256 -327| 251 -338"/>
+                                                  <Edge fillStyle0="1" fillStyle1="0" strokeStyle="0" edges="! 251 -338| 248 -343| 245 -348"/>
+                                                  <Edge fillStyle0="2" fillStyle1="3" strokeStyle="1" edges="! 208 -194| 193 -203[ 176 -215 173 -237[ 171 -256 185 -272[ 196 -290 216 -292[ 235 -295 252 -281| 265 -268"/>
+                                                  <Edge fillStyle0="2" fillStyle1="0" strokeStyle="1" edges="! 265 -268| 267 -284| 266 -299| 266 -300[ 264 -304 265 -307| 256 -327"/>
+                                                  <Edge fillStyle0="0" fillStyle1="2" strokeStyle="1" edges="! 208 -194[ 196 -188 180 -186| 150 -187"/>
+                                                  <Edge fillStyle0="0" fillStyle1="3" strokeStyle="1" edges="! 265 -268| 254 -238| 247 -224| 225 -204| 221 -200| 208 -194"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 2" color="#e9dcb1">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 243" centerPoint3DX="41.9" centerPoint3DY="10.45">
+                                             <matrix>
+                                                  <Matrix tx="13.2" ty="-11.7" a="0.9659271240234375" d="0.9659271240234375" b="0.255035400390625" c="-0.255035400390625"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <Actionscript>
+                                                  <script>onClipEvent(load){
+   if(_root.hat == 0)
+   {
+      gotoAndStop(1);
+   }
+   if(_root.hat == 1)
+   {
+      gotoAndStop(2);
+   }
+   if(_root.hat == 2)
+   {
+      gotoAndStop(3);
+   }
+   if(_root.hat == 3)
+   {
+      gotoAndStop(4);
+   }
+   if(_root.hat == 4)
+   {
+      gotoAndStop(5);
+   }
+}
+</script>
+                                             </Actionscript>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 3" color="#f769d7">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMShape isFloating="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#00ccff" alpha="1.0"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="2">
+                                                       <SolidColor color="#000000" alpha="1.0"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="3">
+                                                       <SolidColor color="#ffffff" alpha="1.0"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="4">
+                                                       <SolidColor color="#ffcc00" alpha="1.0"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <strokes>
+                                                  <StrokeStyle index="1">
+                                                       <SolidStroke weight="1.0" scaleMode="normal">
+                                                            <fill>
+                                                                 <SolidColor color="#000000"/>
+                                                            </fill>
+                                                       </SolidStroke>
+                                                  </StrokeStyle>
+                                                  <StrokeStyle index="2">
+                                                       <SolidStroke weight="2.0" scaleMode="normal">
+                                                            <fill>
+                                                                 <SolidColor color="#000000"/>
+                                                            </fill>
+                                                       </SolidStroke>
+                                                  </StrokeStyle>
+                                             </strokes>
+                                             <edges>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="1" edges="! 236 -357| 240 -353| 256 -335| 264 -317| 266 -306"/>
+                                                  <Edge fillStyle0="0" fillStyle1="2" strokeStyle="1" edges="! 266 -306[ 273 -285 266 -259[ 260 -234 244 -217"/>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="1" edges="! 244 -217| 232 -204| 231 -203| 226 -200| 222 -197[ 208 -189 194 -186"/>
+                                                  <Edge fillStyle0="0" fillStyle1="3" strokeStyle="1" edges="! 194 -186| 182 -184| 170 -184| 160 -184| 146 -187| 145 -187[ 106 -197 84 -232[ 62 -267 73 -308[ 82 -348 118 -370[ 153 -390 194 -380| 202 -377[ 219 -373 230 -362| 236 -357"/>
+                                                  <Edge fillStyle0="1" fillStyle1="3" strokeStyle="0" edges="! 236 -357[ 211 -360 186 -346[ 153 -326 144 -290[ 135 -253 154 -222[ 168 -197 194 -186"/>
+                                                  <Edge fillStyle0="1" fillStyle1="2" strokeStyle="1" edges="! 244 -217| 227 -219[ 207 -223 195 -240[ 186 -258 192 -278[ 196 -299 213 -309| 251 -314| 266 -306"/>
+                                                  <Edge fillStyle0="0" fillStyle1="0" strokeStyle="2" edges="! 324 -94[ 298 -30 250 13| 253 22[ 276 107 252 201[ 216 342 93 417[ -33 490 -173 455| -195 448| -220 440[ -327 397 -386 295[ -462 170 -425 29[ -389 -112 -264 -185| -251 -193[ -254 -237 -241 -286[ -212 -405 -105 -468[ 3 -532 123 -502[ 244 -471 306 -364| 319 -339[ 354 -267 348 -188"/>
+                                                  <Edge fillStyle0="0" fillStyle1="4" strokeStyle="2" edges="! 348 -188| 436 -112| 324 -94"/>
+                                                  <Edge fillStyle0="0" fillStyle1="4" strokeStyle="1" edges="! 324 -94| 339 -137| 348 -188"/>
+                                                  <Edge fillStyle0="4" fillStyle1="4" strokeStyle="1" edges="! 339 -137| 436 -112"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 4" color="#c2f906">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 223" centerPoint3DX="14.9" centerPoint3DY="22.4">
+                                             <matrix>
+                                                  <Matrix tx="-2.4" ty="-1.6" a="0.965789794921875" d="0.965789794921875" b="0.250732421875" c="-0.250732421875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <Actionscript>
+                                                  <script>onClipEvent(load){
+   if(_root.colour == 0)
+   {
+      gotoAndStop(1);
+   }
+   if(_root.colour == 1)
+   {
+      gotoAndStop(2);
+   }
+   if(_root.colour == 2)
+   {
+      gotoAndStop(3);
+   }
+   if(_root.colour == 3)
+   {
+      gotoAndStop(4);
+   }
+   if(_root.colour == 4)
+   {
+      gotoAndStop(5);
+   }
+   if(_root.colour == 5)
+   {
+      gotoAndStop(6);
+   }
+   if(_root.colour == 6)
+   {
+      gotoAndStop(7);
+   }
+   if(_root.colour == 7)
+   {
+      gotoAndStop(8);
+   }
+   if(_root.colour == 8)
+   {
+      gotoAndStop(9);
+   }
+   if(_root.colour == 9)
+   {
+      gotoAndStop(10);
+   }
+   if(_root.colour == 10)
+   {
+      gotoAndStop(11);
+   }
+   if(_root.colour == 11)
+   {
+      gotoAndStop(12);
+   }
+   if(_root.colour == 12)
+   {
+      gotoAndStop(13);
+   }
+   if(_root.colour == 13)
+   {
+      gotoAndStop(14);
+   }
+   if(_root.colour == 14)
+   {
+      gotoAndStop(15);
+   }
+   if(_root.colour == 15)
+   {
+      gotoAndStop(16);
+   }
+}
+</script>
+                                             </Actionscript>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 5" color="#84a9f2" current="true" isSelected="true">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMShape isFloating="true">
+                                             <fills/>
+                                             <strokes>
+                                                  <StrokeStyle index="1">
+                                                       <SolidStroke weight="2.0" scaleMode="normal">
+                                                            <fill>
+                                                                 <SolidColor color="#000000"/>
+                                                            </fill>
+                                                       </SolidStroke>
+                                                  </StrokeStyle>
+                                             </strokes>
+                                             <edges>
+                                                  <Edge fillStyle0="0" fillStyle1="0" strokeStyle="1" edges="! -196 449| -230 546| -28 578"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timeline>
+</DOMSymbolItem>

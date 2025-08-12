@@ -1,0 +1,38 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Symbol 773" itemID="689b8880-0000019e" lastModified="1703808239">
+     <timeline>
+          <DOMTimeline name="Symbol 773">
+               <layers>
+                    <DOMLayer name="Layer 1" color="#4dd071" current="true" isSelected="true">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMShape isFloating="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#61664c"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="2">
+                                                       <LinearGradient>
+                                                            <matrix>
+                                                                 <Matrix tx="-0.05" ty="0.0" a="0.0" d="0.0" b="0.146484375" c="-0.146484375"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#6b7153" ratio="0.0"/>
+                                                            <GradientEntry color="#4f523f" ratio="1.0"/>
+                                                       </LinearGradient>
+                                                  </FillStyle>
+                                             </fills>
+                                             <strokes/>
+                                             <edges>
+                                                  <Edge fillStyle0="1" fillStyle1="2" strokeStyle="0" edges="! -9372 -400| -8312 -409| 7574 -400| 7574 -1600| 7571 -1600"/>
+                                                  <Edge fillStyle0="1" fillStyle1="0" strokeStyle="0" edges="! 7571 -1600| 7571 -1220| -9372 -1220| -9372 -400"/>
+                                                  <Edge fillStyle0="2" fillStyle1="0" strokeStyle="0" edges="! -9372 -400| -9372 2400| 9371 2400| 9371 -2400| 7571 -2400| 7571 -1600"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timeline>
+</DOMSymbolItem>

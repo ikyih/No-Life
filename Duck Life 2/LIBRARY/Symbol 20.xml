@@ -1,0 +1,205 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Symbol 20" itemID="689b8880-00000023" lastModified="1703808239">
+     <timeline>
+          <DOMTimeline name="Symbol 20">
+               <layers>
+                    <DOMLayer name="Layer 1" color="#d4a0a9">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 19" centerPoint3DX="182.3" centerPoint3DY="127.1">
+                                             <matrix>
+                                                  <Matrix tx="39.4" ty="67.5" a="0.296142578125" d="0.296142578125"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <Actionscript>
+                                                  <script>on(release){
+   getUrl("http://sims5000.newgrounds.com", "");
+}
+</script>
+                                             </Actionscript>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 2" color="#9cd465">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 17" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="0.0" ty="0.0"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 3" color="#d3d352">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMStaticText left="0" antiAliasSharpness="0" antiAliasThickness="0" width="1962" height="2676" autoExpand="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="-75.95" ty="-108.8" a="0.5290374755859375" d="0.5290374755859375"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Duck</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" rotation="true" size="68.0" bitmapSize="1360" letterSpacing="0" indent="0" leftMargin="0" lineSpacing="-18" rightMargin="0" fillColor="#ffffff" face="Cooper Std Black"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                                  <DOMTextRun>
+                                                       <characters>&#13;Life</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" rotation="true" size="96.0" bitmapSize="1920" letterSpacing="0" indent="0" leftMargin="0" lineSpacing="-18" rightMargin="0" fillColor="#ffffff" face="Cooper Std Black"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMStaticText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 4" color="#83c998">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 14" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="3.6" ty="-65.6" a="0.5290374755859375" d="0.5290374755859375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 5" color="#bb6d6e">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 14" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="3.6" ty="-61.35" a="0.5290374755859375" d="0.5290374755859375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 6" color="#f76fb9">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 14" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="3.6" ty="-58.7" a="0.5290374755859375" d="0.5290374755859375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 7" color="#f55d7c">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMShape isFloating="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#ffffff" alpha="0.49803922"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <strokes/>
+                                             <edges>
+                                                  <Edge fillStyle0="1" fillStyle1="0" strokeStyle="0" edges="! 1369 -1730| 1282 -1802| 1266 -1814| 1219 -1842[ 1100 -1906 956 -1911| 905 -1911[ 664 -1902 491 -1730[ 422 -1661 380 -1581[ 350 -1525 333 -1463[ 249 -1462 174 -1440| 166 -1437| 120 -1420[ 21 -1378 -60 -1295[ -229 -1126 -229 -887[ -229 -700 -125 -556| -109 -535| -60 -479[ 20 -400 115 -358[ 221 -310 349 -310| 361 -305| 400 -305| 400 -303| 1551 -304| 1595 -303[ 1836 -303 2005 -474[ 2176 -643 2176 -883[ 2176 -1058 2086 -1195| 2086 -1197[ 2086 -1419 1929 -1576| 1852 -1641[ 1721 -1732 1551 -1732[ 1464 -1732 1389 -1709| 1369 -1730"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 8" color="#908283">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 12" name="loader" centerPoint3DX="-64.15" centerPoint3DY="111.0">
+                                             <matrix>
+                                                  <Matrix tx="-81.15" ty="92.15" a="3.3687744140625" d="3.3687744140625"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 9" color="#8ddb43" current="true" isSelected="true">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMShape isFloating="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <LinearGradient>
+                                                            <matrix>
+                                                                 <Matrix tx="0.3" ty="0.0" a="7.62939453125E-4" d="7.62939453125E-4" b="0.1495361328125" c="-0.1495361328125"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#6699ff" ratio="0.0"/>
+                                                            <GradientEntry color="#aee1ff" ratio="1.0"/>
+                                                       </LinearGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="2">
+                                                       <SolidColor color="#b1e800"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="3">
+                                                       <SolidColor color="#7ad002"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <strokes>
+                                                  <StrokeStyle index="1">
+                                                       <SolidStroke scaleMode="normal" weight="1.0">
+                                                            <fill>
+                                                                 <SolidColor color="#ffff00"/>
+                                                            </fill>
+                                                       </SolidStroke>
+                                                  </StrokeStyle>
+                                             </strokes>
+                                             <edges>
+                                                  <Edge fillStyle0="1" fillStyle1="0" strokeStyle="0" edges="! 645 -577[ 855 -218 850 105[ 844 427 622 659[ 400 890 29 912[ -343 933 -616 661[ -890 388 -890 0[ -890 -388 -616 -662[ -342 -936 46 -936[ 434 -936 645 -577"/>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="0" edges="! -2103 1258[ -2444 700 -2444 0[ -2444 -1017 -1727 -1734[ -1011 -2450 6 -2450[ 1023 -2450 1740 -1734[ 1928 -1546 2067 -1337[ 2456 -750 2456 0[ 2456 703 2113 1263"/>
+                                                  <Edge fillStyle0="0" fillStyle1="0" strokeStyle="1" edges="! 2113 1263| 2136 1263"/>
+                                                  <Edge fillStyle0="0" fillStyle1="2" strokeStyle="0" edges="! 2113 1263| 1992 1442[ 1880 1593 1740 1733| 1624 1843"/>
+                                                  <Edge fillStyle0="0" fillStyle1="0" strokeStyle="1" edges="! 1624 1843| 1636 1843"/>
+                                                  <Edge fillStyle0="0" fillStyle1="3" strokeStyle="0" edges="! 1624 1843[ 942 2450 6 2450[ -903 2450 -1571 1877"/>
+                                                  <Edge fillStyle0="0" fillStyle1="0" strokeStyle="1" edges="! -1571 1877| -1624 1883"/>
+                                                  <Edge fillStyle0="0" fillStyle1="0" strokeStyle="1" edges="! -2103 1258| -2144 1263"/>
+                                                  <Edge fillStyle0="0" fillStyle1="2" strokeStyle="0" edges="! -1571 1877[ -1651 1809 -1727 1733[ -1950 1510 -2103 1258"/>
+                                                  <Edge fillStyle0="1" fillStyle1="2" strokeStyle="0" edges="! -2103 1258[ 1242 974 2113 1263"/>
+                                                  <Edge fillStyle0="2" fillStyle1="3" strokeStyle="0" edges="! -1571 1877[ 504 1648 1624 1843"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timeline>
+</DOMSymbolItem>

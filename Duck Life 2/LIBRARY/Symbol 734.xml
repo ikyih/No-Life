@@ -1,0 +1,72 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Symbol 734" itemID="689b8880-00000189" lastModified="1703808239">
+     <timeline>
+          <DOMTimeline name="Symbol 734">
+               <layers>
+                    <DOMLayer name="Layer 1" color="#85e0ef" current="true" isSelected="true">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMShape isFloating="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#ffff00" alpha="1.0"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="2">
+                                                       <SolidColor color="#ffcc00" alpha="1.0"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="3">
+                                                       <SolidColor color="#ffffff" alpha="1.0"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="4">
+                                                       <SolidColor color="#00ccff" alpha="1.0"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="5">
+                                                       <SolidColor color="#000000" alpha="1.0"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <strokes>
+                                                  <StrokeStyle index="1">
+                                                       <SolidStroke weight="2.0" scaleMode="normal">
+                                                            <fill>
+                                                                 <SolidColor color="#000000"/>
+                                                            </fill>
+                                                       </SolidStroke>
+                                                  </StrokeStyle>
+                                                  <StrokeStyle index="2">
+                                                       <SolidStroke weight="1.0" scaleMode="normal">
+                                                            <fill>
+                                                                 <SolidColor color="#000000"/>
+                                                            </fill>
+                                                       </SolidStroke>
+                                                  </StrokeStyle>
+                                             </strokes>
+                                             <edges>
+                                                  <Edge fillStyle0="1" fillStyle1="0" strokeStyle="0" edges="! 278 -262| 278 -263| 264 -270"/>
+                                                  <Edge fillStyle0="1" fillStyle1="1" strokeStyle="1" edges="! 264 -270| 264 -269"/>
+                                                  <Edge fillStyle0="1" fillStyle1="2" strokeStyle="1" edges="! 264 -269| 278 -262"/>
+                                                  <Edge fillStyle0="0" fillStyle1="2" strokeStyle="1" edges="! 278 -262| 356 -222| 265 -181"/>
+                                                  <Edge fillStyle0="0" fillStyle1="0" strokeStyle="1" edges="! 265 -181[ 257 -122 223 -73[ 267 -2 267 89[ 267 218 176 310[ 85 401 -45 401| -88 398| -89 490| 89 490"/>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="0" edges="! 265 -187| 245 -175[ 237 -125 208 -83| 204 -74| 207 -64[ 249 3 249 89[ 249 211 163 297[ 77 383 -45 383| -86 380[ -182 367 -253 297[ -339 211 -339 89[ -339 -33 -253 -119| -251 -120| -244 -127| -238 -136| -238 -147[ -250 -182 -250 -223[ -250 -327 -177 -400[ -104 -473 0 -473[ 104 -473 176 -400[ 228 -348 244 -280| 264 -270"/>
+                                                  <Edge fillStyle0="0" fillStyle1="0" strokeStyle="1" edges="! 264 -270[ 250 -350 189 -412[ 111 -490 0 -490[ -110 -490 -189 -412[ -267 -333 -267 -223[ -267 -179 -255 -141| -265 -131[ -356 -40 -356 89[ -356 218 -265 310[ -190 385 -88 398"/>
+                                                  <Edge fillStyle0="3" fillStyle1="1" strokeStyle="0" edges="! 119 -394| 116 -396| 110 -398"/>
+                                                  <Edge fillStyle0="3" fillStyle1="1" strokeStyle="2" edges="! 110 -398| 91 -401| 89 -401| 87 -401| 75 -399[ 46 -395 26 -375[ 0 -348 0 -311[ 0 -274 26 -248[ 52 -222 89 -222[ 112 -222 131 -232"/>
+                                                  <Edge fillStyle0="3" fillStyle1="4" strokeStyle="0" edges="! 131 -232[ 107 -237 89 -254[ 66 -278 66 -311[ 65 -344 89 -369[ 107 -386 130 -390"/>
+                                                  <Edge fillStyle0="3" fillStyle1="1" strokeStyle="2" edges="! 130 -390| 120 -394| 119 -394"/>
+                                                  <Edge fillStyle0="4" fillStyle1="1" strokeStyle="2" edges="! 167 -352| 160 -365| 152 -375| 151 -376| 147 -380| 130 -390"/>
+                                                  <Edge fillStyle0="5" fillStyle1="1" strokeStyle="2" edges="! 168 -270| 174 -280| 174 -285| 178 -311| 177 -325| 167 -352"/>
+                                                  <Edge fillStyle0="5" fillStyle1="4" strokeStyle="2" edges="! 167 -352| 152 -355[ 133 -355 120 -343[ 108 -330 109 -311[ 108 -293 120 -280[ 133 -267 152 -268| 168 -270"/>
+                                                  <Edge fillStyle0="1" fillStyle1="4" strokeStyle="2" edges="! 168 -270| 152 -248| 131 -232"/>
+                                                  <Edge fillStyle0="1" fillStyle1="2" strokeStyle="2" edges="! 265 -187| 267 -205| 267 -216| 267 -222| 267 -223| 264 -269"/>
+                                                  <Edge fillStyle0="0" fillStyle1="2" strokeStyle="1" edges="! 265 -181| 264 -181"/>
+                                                  <Edge fillStyle0="0" fillStyle1="2" strokeStyle="2" edges="! 264 -181| 265 -187"/>
+                                                  <Edge fillStyle0="2" fillStyle1="2" strokeStyle="2" edges="! 267 -222| 356 -222"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timeline>
+</DOMSymbolItem>

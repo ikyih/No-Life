@@ -1,0 +1,29 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Symbol 1052" itemID="689b8880-0000021e" lastModified="1703808239" symbolType="graphic">
+     <timeline>
+          <DOMTimeline name="Symbol 1052" currentFrame="0">
+               <layers>
+                    <DOMLayer name="Layer 1">
+                         <frames>
+                              <DOMFrame index="0" motionTweenScale="false" keyMode="8192">
+                                   <elements>
+                                        <DOMShape isFloating="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#ffffff"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <strokes/>
+                                             <edges>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="0" edges="! 152 -324[ 202 -309 205 -292[ 202 -281 174 -270| 152 -262| 151 -262| 128 -256| 41 -245| 0 -245| -47 -246| -132 -257| -152 -262| -173 -269[ -202 -280 -205 -292| -205 -293[ -201 -309 -151 -324[ -88 -341 0 -341| 152 -324"/>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="0" edges="! 152 -188| 151 -188| 145 -186| 112 -178| 101 -177| 69 -173| 67 -173| 64 -172| 57 -172| 25 -170| 21 -170| 19 -170| 10 -170| -12 -170| -26 -170| -31 -171| -63 -172| -118 -180| -151 -188| -183 -200| -187 -205| -197 -210| -199 -210| -205 -218| -205 -251| -183 -242| -159 -234| -159 -233| -142 -229| -141 -228| -49 -216| 0 -215| 42 -215| 134 -227| 135 -227| 160 -234| 184 -242| 205 -252| 205 -218| 187 -201| 185 -201| 183 -200| 181 -198| 152 -188"/>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="0" edges="! 173 -163| 173 294[ 170 309 126 323[ 72 341 -5 341[ -82 341 -136 323| -137 323[ -179 309 -182 294| -182 -167| -160 -160| -160 271| -153 287[ -147 294 -138 294[ -129 294 -122 287[ -115 280 -115 271| -115 -149| -70 -143| -70 286| -64 302[ -57 309 -48 309[ -39 309 -32 302[ -26 295 -26 286| -26 -140| 0 -140| 19 -140| 19 286[ 19 295 26 302[ 32 309 41 309[ 50 309 57 302| 64 286| 64 -142| 108 -148| 108 271[ 108 280 115 287[ 122 294 131 294[ 140 294 146 287| 153 271| 153 -157| 160 -160| 160 -159| 173 -163"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timeline>
+</DOMSymbolItem>

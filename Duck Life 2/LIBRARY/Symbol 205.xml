@@ -1,0 +1,54 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Symbol 205" itemID="689b8880-00000095" lastModified="1703808239">
+     <timeline>
+          <DOMTimeline name="Symbol 205">
+               <layers>
+                    <DOMLayer name="Layer 1" color="#88f2c8" current="true" isSelected="true">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 203" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="170.0" ty="58.0"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="1" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 204" centerPoint3DX="491.5" centerPoint3DY="86.75">
+                                             <matrix>
+                                                  <Matrix tx="170.0" ty="58.0"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color redMultiplier="0.5" greenMultiplier="0.5" blueMultiplier="0.5" redOffset="128" greenOffset="102"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 204" centerPoint3DX="491.5" centerPoint3DY="86.75">
+                                             <matrix>
+                                                  <Matrix tx="170.0" ty="58.0"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color redMultiplier="0.25" greenMultiplier="0.25" blueMultiplier="0.25" blueOffset="77"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,171 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Symbol 1020" itemID="689b8880-00000203" lastModified="1703808239">
+     <timeline>
+          <DOMTimeline name="Symbol 1020">
+               <layers>
+                    <DOMLayer name="Layer 1" color="#18d5e9">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 1019" centerPoint3DX="5.95" centerPoint3DY="28.45">
+                                             <matrix>
+                                                  <Matrix tx="-0.05" ty="24.9"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <Actionscript>
+                                                  <script>onClipEvent(load){
+   num = 0;
+}
+onClipEvent(enterFrame){
+   if(_parent._parent._x &lt; 530 || _parent._parent._currentframe == 2)
+   {
+      if(_parent._parent._x &gt; 110 || _parent._parent._currentframe == 1)
+      {
+         num = Math.round(Math.random() * 40);
+         if(num == 5)
+         {
+            _parent.play();
+            num = 0;
+         }
+         if(_root.corn._x &lt; 640)
+         {
+            _parent.play();
+            num = 0;
+         }
+         if(_root.corn2._x &gt; 0)
+         {
+            _parent.play();
+            num = 0;
+         }
+      }
+   }
+}
+</script>
+                                             </Actionscript>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 2" color="#f92da1">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 1018" centerPoint3DX="28.65" centerPoint3DY="8.95">
+                                             <matrix>
+                                                  <Matrix tx="-0.05" ty="-13.2"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 3" color="#ac0af0">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 224" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="0.0" ty="0.0"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 4" color="#6b36e9" current="true" isSelected="true">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 1014" centerPoint3DX="14.75" centerPoint3DY="21.5">
+                                             <matrix>
+                                                  <Matrix tx="-2.55" ty="-2.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <Actionscript>
+                                                  <script>onClipEvent(load){
+   if(_root.colour == 0)
+   {
+      gotoAndStop(1);
+   }
+   if(_root.colour == 1)
+   {
+      gotoAndStop(2);
+   }
+   if(_root.colour == 2)
+   {
+      gotoAndStop(3);
+   }
+   if(_root.colour == 3)
+   {
+      gotoAndStop(4);
+   }
+   if(_root.colour == 4)
+   {
+      gotoAndStop(5);
+   }
+   if(_root.colour == 5)
+   {
+      gotoAndStop(6);
+   }
+   if(_root.colour == 6)
+   {
+      gotoAndStop(7);
+   }
+   if(_root.colour == 7)
+   {
+      gotoAndStop(8);
+   }
+   if(_root.colour == 8)
+   {
+      gotoAndStop(9);
+   }
+   if(_root.colour == 9)
+   {
+      gotoAndStop(10);
+   }
+   if(_root.colour == 10)
+   {
+      gotoAndStop(11);
+   }
+   if(_root.colour == 11)
+   {
+      gotoAndStop(12);
+   }
+   if(_root.colour == 12)
+   {
+      gotoAndStop(13);
+   }
+   if(_root.colour == 13)
+   {
+      gotoAndStop(14);
+   }
+   if(_root.colour == 14)
+   {
+      gotoAndStop(15);
+   }
+   if(_root.colour == 15)
+   {
+      gotoAndStop(16);
+   }
+}
+</script>
+                                             </Actionscript>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timeline>
+</DOMSymbolItem>

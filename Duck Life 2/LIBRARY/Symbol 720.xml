@@ -1,0 +1,138 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Symbol 720" itemID="689b8880-00000183" lastModified="1703808239">
+     <timeline>
+          <DOMTimeline name="Symbol 720">
+               <layers>
+                    <DOMLayer name="Layer 1" color="#e1899a">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 719" centerPoint3DX="46.0" centerPoint3DY="283.85">
+                                             <matrix>
+                                                  <Matrix tx="4.5" ty="219.95"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <Actionscript>
+                                                  <script>onClipEvent(enterFrame){
+   if(_root.first &gt; 0)
+   {
+      play();
+   }
+}
+</script>
+                                             </Actionscript>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 2" color="#f7931c">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 718" centerPoint3DX="310.0" centerPoint3DY="440.0">
+                                             <matrix>
+                                                  <Matrix tx="250.0" ty="420.0"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <Actionscript>
+                                                  <script>on(release){
+   _root.gotoAndStop(9);
+}
+on(rollOver){
+   _alpha = 50;
+}
+on(rollOut,releaseOutside){
+   _alpha = 100;
+}
+</script>
+                                             </Actionscript>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 3" color="#c87e50">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 326" centerPoint3DX="251.75" centerPoint3DY="11.35">
+                                             <matrix>
+                                                  <Matrix tx="201.65" ty="7.8"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <Actionscript>
+                                                  <script>onClipEvent(load){
+   level = 1 + _root.staminalevel;
+   clevel = level;
+}
+onClipEvent(enterFrame){
+   if(_root.go == 1)
+   {
+      if(_root.first !== 1 and _root.second !== 1 and _root.third !== 1)
+      {
+         this._xscale = clevel / level * 100;
+         clevel -= 0.01;
+         if(clevel &lt;= 0)
+         {
+            _root.gotoAndStop(78);
+         }
+      }
+   }
+}
+</script>
+                                             </Actionscript>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 4" color="#6deecc">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMStaticText left="24.35" antiAliasSharpness="0" antiAliasThickness="0" width="464" height="327" autoExpand="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="201.65" ty="-15.35"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Energy</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" rotation="true" size="16.0" bitmapSize="320" letterSpacing="0" indent="0" leftMargin="0" lineSpacing="0" rightMargin="0" fillColor="#ffffff" face="Apple-Casual"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMStaticText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 5" color="#4ff580" current="true" isSelected="true">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMShape isFloating="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#000000" alpha="0.49803922"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <strokes/>
+                                             <edges>
+                                                  <Edge fillStyle0="1" fillStyle1="0" strokeStyle="0" edges="! 3800 -10| 3800 11[ 3804 170 3917 283[ 4030 396 4190 400| 5811 400[ 5970 396 6083 283[ 6196 170 6200 11| 6200 -10[ 6196 -170 6083 -283[ 5970 -396 5811 -400| 4190 -400[ 4030 -396 3917 -283[ 3804 -170 3800 -10"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timeline>
+</DOMSymbolItem>

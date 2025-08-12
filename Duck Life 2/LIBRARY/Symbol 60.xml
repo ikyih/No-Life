@@ -1,0 +1,57 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Symbol 60" itemID="689b8880-00000041" lastModified="1703808239">
+     <timeline>
+          <DOMTimeline name="Symbol 60">
+               <layers>
+                    <DOMLayer name="Script Layer" color="#936bea">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.onRelease = function()
+{
+   getUrl("http://www.bubblebox.com/clickreg.php?type=gamestats&amp;id=1840&amp;subid=loadscreen", "_blank");
+};
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 2" color="#5586f0">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 59" centerPoint3DX="90.5" centerPoint3DY="20.6" cacheAsBitmap="true">
+                                             <matrix>
+                                                  <Matrix tx="10.7" ty="-9.8" a="1.5" d="1.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 3" color="#52ed7f" current="true" isSelected="true">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMShape isFloating="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#ffff00" alpha="0.007843138"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <strokes/>
+                                             <edges>
+                                                  <Edge fillStyle0="1" fillStyle1="0" strokeStyle="0" edges="! 3816 -800| -216 -800[ -600 -800 -600 -416| -600 216[ -600 600 -216 600| 3816 600[ 4200 600 4200 216| 4200 -416[ 4200 -800 3816 -800"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,167 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Symbol 1033" itemID="689b8880-0000020e" lastModified="1703808239">
+     <timeline>
+          <DOMTimeline name="Symbol 1033">
+               <layers>
+                    <DOMLayer name="Layer 1" color="#a860f4">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMShape isFloating="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#000000"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <strokes/>
+                                             <edges>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="0" edges="! 1080 400| 680 400| 680 0| 480 0| 880 -400| 1280 0| 1080 0| 1080 400"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 2" color="#69d9f9">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 1031" centerPoint3DX="142.95" centerPoint3DY="193.75">
+                                             <matrix>
+                                                  <Matrix tx="0.0" ty="16.3" a="0.57000732421875" d="0.977447509765625"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color redMultiplier="0.0" greenMultiplier="0.0" blueMultiplier="0.0" redOffset="255" greenOffset="255" blueOffset="255"/>
+                                             </color>
+                                             <Actionscript>
+                                                  <script>onClipEvent(load){
+   chick1 = 0;
+   chick2 = 0;
+   chick3 = 0;
+   chick4 = 0;
+   idn = 1;
+}
+onClipEvent(enterFrame){
+   if(_root.resets == 1)
+   {
+      chick1 = 0;
+      chick2 = 0;
+      chick3 = 0;
+      chick4 = 0;
+   }
+   if(this.hitTest(_root.chick) &amp;&amp; _root.chick._currentframe &gt; 33)
+   {
+      _root.chick._x = _parent._x + _X - 15;
+      _root.chick.mode = 4;
+      _root.chick.gotoAndStop(32);
+   }
+   if(this.hitTest(_root.chick) &amp;&amp; chick1 == 0)
+   {
+      chick1 = 1;
+      _root.chick._x = _parent._x + _X - 15;
+      _root.chick.mode = 4;
+      _root.chick.gotoAndStop(32);
+   }
+   if(_root.chick.mode == 4)
+   {
+      if(!this.hitTest(_root.chick) &amp;&amp; chick1 == 1)
+      {
+         chick1 = 0;
+         _root.chick.mode = 0;
+         _root.chick.play();
+      }
+   }
+   if(this.hitTest(_root.chick2) &amp;&amp; _root.chick2._currentframe &gt; 33)
+   {
+      _root.chick2._x = _parent._x + _X - 15;
+      _root.chick2.mode = 4;
+      _root.chick2.gotoAndStop(32);
+   }
+   if(this.hitTest(_root.chick2) &amp;&amp; chick1 == 0)
+   {
+      chick2 = 1;
+      _root.chick2._x = _parent._x + _X - 15;
+      _root.chick2.mode = 4;
+      _root.chick2.gotoAndStop(32);
+   }
+   if(_root.chick2.mode == 4)
+   {
+      if(!this.hitTest(_root.chick2) &amp;&amp; chick2 == 1)
+      {
+         chick2 = 0;
+         _root.chick2.mode = 0;
+         _root.chick2.play();
+      }
+   }
+   if(this.hitTest(_root.chick3) &amp;&amp; _root.chick3._currentframe &gt; 33)
+   {
+      _root.chick3._x = _parent._x + _X - 17;
+      _root.chick3.mode = 4;
+      _root.chick3.gotoAndStop(32);
+   }
+   if(this.hitTest(_root.chick3) &amp;&amp; chick3 == 0)
+   {
+      chick3 = 1;
+      _root.chick3._x = _parent._x + _X - 14;
+      _root.chick3.mode = 4;
+      _root.chick3.gotoAndStop(32);
+   }
+   if(_root.chick3.mode == 4)
+   {
+      if(!this.hitTest(_root.chick3))
+      {
+         _root.chick3.mode = 0;
+         _root.chick3.play();
+      }
+   }
+   if(this.hitTest(_root.chick4) &amp;&amp; _root.chick4._currentframe &gt; 33)
+   {
+      _root.chick4._x = _parent._x + _X - 17;
+      _root.chick4.mode = 4;
+      _root.chick4.gotoAndStop(32);
+   }
+   if(this.hitTest(_root.chick4) &amp;&amp; chick4 == 0)
+   {
+      chick4 = 1;
+      _root.chick4._x = _parent._x + _X - 17;
+      _root.chick4.mode = 4;
+      _root.chick4.gotoAndStop(32);
+   }
+   if(_root.chick4.mode == 4)
+   {
+      if(!this.hitTest(_root.chick4))
+      {
+         _root.chick4.mode = 0;
+         _root.chick4.play();
+      }
+   }
+}
+</script>
+                                             </Actionscript>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 3" color="#78e4f3">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 1029" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="0.0" ty="0.0"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timeline>
+</DOMSymbolItem>

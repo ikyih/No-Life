@@ -1,0 +1,176 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Symbol 665" itemID="689b8880-00000155" lastModified="1703808239">
+     <timeline>
+          <DOMTimeline name="Symbol 665">
+               <layers>
+                    <DOMLayer name="Script Layer" color="#9f5ea0">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <Actionscript>
+                                        <script>gotoAndStop(2);
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 2" color="#559dc6">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 109" centerPoint3DX="-18.9" centerPoint3DY="3.8">
+                                             <matrix>
+                                                  <Matrix tx="-24.9" ty="0.25" a="0.0" d="0.0090789794921875" b="1.0" c="-1.0"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <Actionscript>
+                                                  <script>onClipEvent(load){
+   num = 0;
+}
+onClipEvent(enterFrame){
+   if(_parent._parent._x &lt; 480 or _parent._parent._currentframe == 2)
+   {
+      if(_parent._parent._x &gt; 160 or _parent._parent._currentframe == 1)
+      {
+         num = Math.round(Math.random() * 40);
+         if(num == 5)
+         {
+            _parent.play();
+            num = 0;
+         }
+         if(_root.corn._x &lt; 640)
+         {
+            _parent.play();
+            num = 0;
+         }
+         if(_root.corn2._x &gt; 0)
+         {
+            _parent.play();
+            num = 0;
+         }
+      }
+   }
+}
+</script>
+                                             </Actionscript>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 3" color="#668e99">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 244" centerPoint3DX="41.5" centerPoint3DY="22.25">
+                                             <matrix>
+                                                  <Matrix tx="12.8" ty="0.1" b="0.0" c="0.0090789794921875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 4" color="#c4be01">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMShape isFloating="true">
+                                             <fills/>
+                                             <strokes>
+                                                  <StrokeStyle index="1">
+                                                       <SolidStroke weight="2.0" scaleMode="normal">
+                                                            <fill>
+                                                                 <SolidColor color="#000000"/>
+                                                            </fill>
+                                                       </SolidStroke>
+                                                  </StrokeStyle>
+                                             </strokes>
+                                             <edges>
+                                                  <Edge fillStyle0="0" fillStyle1="0" strokeStyle="1" edges="! 251 -302[ 375 -303 463 -216[ 551 -129 551 -5[ 551 120 463 208[ 394 277 303 293| 251 298| 205 295[ 138 287 83 249[ 3 300 -99 301[ -244 302 -347 201[ -449 99 -449 -46| -446 -95[ -431 -209 -347 -294[ -244 -398 -99 -399[ 46 -400 148 -298| 159 -287[ 202 -302 251 -302"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 5" color="#cca8bf" current="true" isSelected="true">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 223" centerPoint3DX="19.85" centerPoint3DY="21.55">
+                                             <matrix>
+                                                  <Matrix tx="2.55" ty="-2.45" a="0.0" d="0.0090789794921875" b="1.0" c="-1.0"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <Actionscript>
+                                                  <script>onClipEvent(load){
+   if(_parent._parent._parent._name == "chick" or _parent._parent._parent._parent._name == "chick" or _parent._parent._parent._parent._parent._name == "chick")
+   {
+      if(_root.colour == 0)
+      {
+         gotoAndStop(1);
+      }
+      if(_root.colour == 1)
+      {
+         gotoAndStop(2);
+      }
+      if(_root.colour == 2)
+      {
+         gotoAndStop(3);
+      }
+      if(_root.colour == 3)
+      {
+         gotoAndStop(4);
+      }
+      if(_root.colour == 4)
+      {
+         gotoAndStop(5);
+      }
+      if(_root.colour == 5)
+      {
+         gotoAndStop(6);
+      }
+      if(_root.colour == 6)
+      {
+         gotoAndStop(7);
+      }
+      if(_root.colour == 7)
+      {
+         gotoAndStop(8);
+      }
+      if(_root.colour == 8)
+      {
+         gotoAndStop(9);
+      }
+      if(_root.colour == 9)
+      {
+         gotoAndStop(10);
+      }
+      if(_root.colour == 10)
+      {
+         gotoAndStop(11);
+      }
+   }
+   else
+   {
+      gotoAndStop(1);
+   }
+}
+</script>
+                                             </Actionscript>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timeline>
+</DOMSymbolItem>

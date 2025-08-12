@@ -1,0 +1,50 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Symbol 203" itemID="689b8880-00000093" lastModified="1703808239" symbolType="graphic">
+     <timeline>
+          <DOMTimeline name="Symbol 203" currentFrame="0">
+               <layers>
+                    <DOMLayer name="Layer 1">
+                         <frames>
+                              <DOMFrame index="0" motionTweenScale="false" keyMode="8192">
+                                   <elements>
+                                        <DOMShape isFloating="true">
+                                             <fills/>
+                                             <strokes>
+                                                  <StrokeStyle index="1">
+                                                       <SolidStroke weight="3.0" scaleMode="normal">
+                                                            <fill>
+                                                                 <SolidColor color="#009900"/>
+                                                            </fill>
+                                                       </SolidStroke>
+                                                  </StrokeStyle>
+                                             </strokes>
+                                             <edges>
+                                                  <Edge fillStyle0="0" fillStyle1="0" strokeStyle="1" edges="! -6400 -560| -6280 -558| -6159 -555| -6042 -549[ -5989 -544 -5925 -547| -5798 -552| -5693 -548| -5562 -544| -5434 -547| -5317 -554| -5179 -547| -5068 -543[ -5020 -552 -4960 -544| -4843 -548| -4735 -557[ -4684 -554 -4622 -556| -4501 -543| -4359 -535| -4236 -526| -4119 -523| -4003 -531| -3893 -514| -3761 -506[ -3701 -512 -3651 -508| -3517 -515[ -3433 -526 -3393 -505[ -3353 -484 -3272 -485| -3152 -494| -3054 -506| -2925 -517| -2810 -522| -2693 -497[ -2620 -473 -2547 -478| -2427 -491| -2314 -495| -2187 -502[ -2127 -512 -2076 -487[ -2025 -461 -1960 -474| -1838 -483| -1722 -480| -1613 -480| -1492 -479| -1353 -479| -1243 -476| -1131 -485[ -1060 -497 -1000 -470[ -940 -443 -885 -468[ -829 -493 -754 -465[ -678 -437 -636 -450[ -593 -463 -538 -461| -412 -468[ -341 -476 -281 -469| -156 -458| -38 -445[ 16 -436 81 -444| 199 -448| 318 -446| 441 -448| 559 -454| 686 -459| 792 -455[ 832 -451 907 -455| 1051 -459| 1168 -458| 1278 -467[ 1340 -475 1399 -467| 1516 -455| 1638 -463| 1759 -467[ 1817 -459 1891 -465| 2017 -455| 2125 -452| 2245 -464| 2350 -461| 2466 -447[ 2540 -435 2600 -447| 2724 -460| 2843 -457| 2952 -453| 3075 -452| 3188 -459| 3304 -464| 3438 -463| 3559 -463| 3673 -472[ 3727 -481 3793 -474| 3921 -463| 4034 -461| 4154 -460| 4280 -450[ 4337 -442 4391 -461| 4513 -469| 4648 -458| 4775 -449| 4888 -435[ 4942 -431 5001 -458[ 5060 -485 5115 -474| 5220 -465| 5351 -461| 5488 -457| 5595 -468| 5700 -464[ 5754 -452 5821 -464[ 5889 -476 5947 -466| 6064 -458| 6190 -464[ 6257 -468 6275 -452[ 6294 -436 6400 -460"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 2">
+                         <frames>
+                              <DOMFrame index="0" motionTweenScale="false" keyMode="8192">
+                                   <elements>
+                                        <DOMShape isFloating="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#009900" alpha="1.0"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <strokes/>
+                                             <edges>
+                                                  <Edge fillStyle0="1" fillStyle1="0" strokeStyle="0" edges="! 6400 560| 6400 -460[ 0 -419 -6400 -560| -6400 540| 2236 560| 6400 560"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timeline>
+</DOMSymbolItem>

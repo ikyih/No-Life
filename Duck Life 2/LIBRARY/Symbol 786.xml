@@ -1,0 +1,136 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Symbol 786" itemID="689b8880-000001a6" lastModified="1703808239">
+     <timeline>
+          <DOMTimeline name="Symbol 786">
+               <layers>
+                    <DOMLayer name="Layer 1" color="#fa44bc">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 785" centerPoint3DX="-1943.4" centerPoint3DY="-24.9">
+                                             <matrix>
+                                                  <Matrix tx="-1997.4" ty="-128.85"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <Actionscript>
+                                                  <script>onClipEvent(load){
+   chick1 = 0;
+   chick2 = 0;
+   chick3 = 0;
+   chick4 = 0;
+   idn = 1;
+}
+onClipEvent(enterFrame){
+   if(this.hitTest(_root.chick) &amp;&amp; _root.chick._currentframe &gt; 33)
+   {
+      _root.chick._x = _parent._x + _X - 17;
+      _root.chick.mode = 4;
+      _root.chick.gotoAndStop(32);
+   }
+   if(this.hitTest(_root.chick) &amp;&amp; chick1 == 0)
+   {
+      chick1 = 1;
+      _root.chick._x = _parent._x + _X - 17;
+      _root.chick.mode = 4;
+      _root.chick.gotoAndStop(32);
+   }
+   if(_root.chick.mode == 4)
+   {
+      if(!this.hitTest(_root.chick))
+      {
+         _root.chick.mode = 0;
+         _root.chick.play();
+      }
+   }
+   if(this.hitTest(_root.chick2) &amp;&amp; _root.chick2._currentframe &gt; 33)
+   {
+      _root.chick2._x = _parent._x + _X - 17;
+      _root.chick2.mode = 4;
+      _root.chick2.gotoAndStop(32);
+   }
+   if(this.hitTest(_root.chick2) &amp;&amp; chick2 == 0)
+   {
+      chick2 = 1;
+      _root.chick2._x = _parent._x + _X - 17;
+      _root.chick2.mode = 4;
+      _root.chick2.gotoAndStop(32);
+   }
+   if(_root.chick2.mode == 4)
+   {
+      if(!this.hitTest(_root.chick2))
+      {
+         _root.chick2.mode = 0;
+         _root.chick2.play();
+      }
+   }
+   if(this.hitTest(_root.chick3) &amp;&amp; _root.chick3._currentframe &gt; 33)
+   {
+      _root.chick3._x = _parent._x + _X - 17;
+      _root.chick3.mode = 4;
+      _root.chick3.gotoAndStop(32);
+   }
+   if(this.hitTest(_root.chick3) &amp;&amp; chick3 == 0)
+   {
+      chick3 = 1;
+      _root.chick3._x = _parent._x + _X - 14;
+      _root.chick3.mode = 4;
+      _root.chick3.gotoAndStop(32);
+   }
+   if(_root.chick3.mode == 4)
+   {
+      if(!this.hitTest(_root.chick3))
+      {
+         _root.chick3.mode = 0;
+         _root.chick3.play();
+      }
+   }
+   if(this.hitTest(_root.chick4) &amp;&amp; _root.chick4._currentframe &gt; 33)
+   {
+      _root.chick4._x = _parent._x + _X - 17;
+      _root.chick4.mode = 4;
+      _root.chick4.gotoAndStop(32);
+   }
+   if(this.hitTest(_root.chick4) &amp;&amp; chick4 == 0)
+   {
+      chick4 = 1;
+      _root.chick4._x = _parent._x + _X - 17;
+      _root.chick4.mode = 4;
+      _root.chick4.gotoAndStop(32);
+   }
+   if(_root.chick4.mode == 4)
+   {
+      if(!this.hitTest(_root.chick4))
+      {
+         _root.chick4.mode = 0;
+         _root.chick4.play();
+      }
+   }
+}
+</script>
+                                             </Actionscript>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 2" color="#d297bf">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 783" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="0.0" ty="0.0"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timeline>
+</DOMSymbolItem>

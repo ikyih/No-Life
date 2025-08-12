@@ -1,0 +1,117 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Symbol 719" itemID="689b8880-00000182" lastModified="1703808239">
+     <timeline>
+          <DOMTimeline name="Symbol 719">
+               <layers>
+                    <DOMLayer name="Script Layer" color="#a975cb">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <Actionscript>
+                                        <script>stop();
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="1" duration="386" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="387" keyMode="9728">
+                                   <Actionscript>
+                                        <script>_root.nextFrame();
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 2" color="#aa2baf" current="true" isSelected="true">
+                         <frames>
+                              <DOMFrame index="0" duration="237" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="237" duration="50" keyMode="9728">
+                                   <elements>
+                                        <DOMStaticText left="0" antiAliasSharpness="0" antiAliasThickness="0" width="362" height="1186" autoExpand="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="-106.75" ty="-117.4" a="2.134613037109375" d="2.134613037109375"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>3</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" rotation="true" size="96.0" bitmapSize="1920" letterSpacing="0" indent="0" leftMargin="31" lineSpacing="0" rightMargin="0" fillColor="#ffffff" face="Xenophone"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <GlowFilter blurX="5" blurY="5" color="#000000" quality="3" strength="14.18"/>
+                                                  <DropShadowFilter angle="90.999539217807" blurX="0" blurY="0" color="#000000" distance="10" quality="3" strength="1"/>
+                                             </filters>
+                                        </DOMStaticText>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="287" duration="50" keyMode="9728">
+                                   <elements>
+                                        <DOMStaticText left="0" antiAliasSharpness="0" antiAliasThickness="0" width="389" height="1198" autoExpand="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="-106.75" ty="-117.4" a="2.134613037109375" d="2.134613037109375"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>2</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" rotation="true" size="96.0" bitmapSize="1920" letterSpacing="0" indent="0" leftMargin="29" lineSpacing="0" rightMargin="0" fillColor="#ffffff" face="Xenophone"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <GlowFilter blurX="5" blurY="5" color="#000000" quality="3" strength="14.18"/>
+                                                  <DropShadowFilter angle="90.999539217807" blurX="0" blurY="0" color="#000000" distance="10" quality="3" strength="1"/>
+                                             </filters>
+                                        </DOMStaticText>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="337" duration="50" keyMode="9728">
+                                   <elements>
+                                        <DOMStaticText left="0" antiAliasSharpness="0" antiAliasThickness="0" width="191" height="1191" autoExpand="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="-106.75" ty="-117.4" a="2.134613037109375" d="2.134613037109375"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>1</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" rotation="true" size="96.0" bitmapSize="1920" letterSpacing="0" indent="0" leftMargin="39" lineSpacing="0" rightMargin="0" fillColor="#ffffff" face="Xenophone"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <GlowFilter blurX="5" blurY="5" color="#000000" quality="3" strength="14.18"/>
+                                                  <DropShadowFilter angle="90.999539217807" blurX="0" blurY="0" color="#000000" distance="10" quality="3" strength="1"/>
+                                             </filters>
+                                        </DOMStaticText>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="387" keyMode="9728">
+                                   <elements>
+                                        <DOMStaticText left="0" antiAliasSharpness="0" antiAliasThickness="0" width="191" height="1191" autoExpand="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="-106.75" ty="-117.4" a="2.134613037109375" d="2.134613037109375"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>1</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" rotation="true" size="96.0" bitmapSize="1920" letterSpacing="0" indent="0" leftMargin="39" lineSpacing="0" rightMargin="0" fillColor="#ffffff" face="Xenophone"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters/>
+                                        </DOMStaticText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timeline>
+</DOMSymbolItem>
