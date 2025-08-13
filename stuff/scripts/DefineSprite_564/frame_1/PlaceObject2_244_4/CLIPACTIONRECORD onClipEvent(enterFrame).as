@@ -1,2 +1,0 @@
-onClipEvent(enterFrame){
-}

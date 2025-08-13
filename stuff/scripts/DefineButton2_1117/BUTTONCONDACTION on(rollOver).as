@@ -1,3 +1,0 @@
-on(rollOver){
-   info = "level";
-}

@@ -1,3 +1,0 @@
-onClipEvent(mouseDown){
-   prevFrame();
-}
