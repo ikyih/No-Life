@@ -1,4 +1,0 @@
-on(rollOver){
-   Push "", 6, 50
-   SetProperty
-}

@@ -1,0 +1,3 @@
+on(keyPress "<Space>"){
+   play();
+}

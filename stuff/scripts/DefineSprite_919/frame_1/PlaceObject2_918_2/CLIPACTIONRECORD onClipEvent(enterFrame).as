@@ -1,0 +1,62 @@
+onClipEvent(enterFrame){
+   if(this.hitTest(_root.chick) and chick1 == 0)
+   {
+      chick1 = 1;
+      _root.chick._x = _parent._x + _X * 2 - 25;
+      _root.chick.mode = 4;
+      _root.chick.gotoAndStop(32);
+   }
+   if(_root.chick.mode == 4)
+   {
+      if(!this.hitTest(_root.chick))
+      {
+         _root.chick.mode = 0;
+         _root.chick.play();
+      }
+   }
+   if(this.hitTest(_root.chick2) and chick2 == 0)
+   {
+      chick2 = 1;
+      _root.chick2._x = _parent._x + _X * 2 - 25;
+      _root.chick2.mode = 4;
+      _root.chick2.gotoAndStop(32);
+   }
+   if(_root.chick2.mode == 4)
+   {
+      if(!this.hitTest(_root.chick2))
+      {
+         _root.chick2.mode = 0;
+         _root.chick2.play();
+      }
+   }
+   if(this.hitTest(_root.chick3) and chick3 == 0)
+   {
+      chick3 = 1;
+      _root.chick3._x = _parent._x + _X * 2 - 22;
+      _root.chick3.mode = 4;
+      _root.chick3.gotoAndStop(32);
+   }
+   if(_root.chick3.mode == 4)
+   {
+      if(!this.hitTest(_root.chick3))
+      {
+         _root.chick3.mode = 0;
+         _root.chick3.play();
+      }
+   }
+   if(this.hitTest(_root.chick4) and chick4 == 0)
+   {
+      chick4 = 1;
+      _root.chick4._x = _parent._x + _X * 2 - 25;
+      _root.chick4.mode = 4;
+      _root.chick4.gotoAndStop(32);
+   }
+   if(_root.chick4.mode == 4)
+   {
+      if(!this.hitTest(_root.chick4))
+      {
+         _root.chick4.mode = 0;
+         _root.chick4.play();
+      }
+   }
+}

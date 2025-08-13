@@ -1,8 +1,0 @@
-on(release){
-   ConstantPool "_root", "gotoAndStop"
-   Push 9, 1, "_root"
-   GetVariable
-   Push "gotoAndStop"
-   CallMethod
-   Pop
-}

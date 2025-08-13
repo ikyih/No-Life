@@ -1,4 +1,0 @@
-onClipEvent(load){
-   Push "", 7, false
-   SetProperty
-}
