@@ -7,8 +7,8 @@
 <script src="ruffle.js"></script>
 <style>
   :root {
-    --game-w: 960px;  /* bigger than 640x480 */
-    --game-h: 720px;  /* keep 4:3 aspect */
+    --game-w: 640px;
+    --game-h: 480px;
   }
   * { box-sizing: border-box; }
   html,body { height: 100%; margin: 0; background:#000; }
@@ -55,6 +55,19 @@
   .dpad { width: 160px; height:160px; position: relative; }
   .dpad img { width: 100%; height: 100%; display: block; image-rendering: pixelated; }
   .space-btn { width: 160px; margin-top: 16px; display:block; image-rendering: pixelated; }
+@media (max-width: 1024px) {
+  :root {
+    --game-w: 100vw;
+    --game-h: 75vw; /* maintain 4:3 */
+  }
+  .joystick, .padcol {
+    width: 120px; height: 120px;
+  }
+  .joy-back { width: 120px; height: 120px; }
+  .joy-front { width: 48px; height: 48px; }
+  .dpad { width: 120px; height: 120px; }
+  .space-btn { width: 120px; }
+}
 </style>
 </head>
 <body>
