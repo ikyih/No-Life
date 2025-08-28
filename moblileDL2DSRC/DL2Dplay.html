@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Duck Life 2 Deluxe Mobile</title>
+<script src="ruffle.js"></script>
+<style>
+  :root {
+    --game-w: 960px;  /* bigger than 640x480 */
+    --game-h: 720px;  /* keep 4:3 aspect */
+  }
+  * { box-sizing: border-box; }
+  html,body { height: 100%; margin: 0; background:#000; }
+  .wrap {
+    height: 100%;
+    display: grid;
+    place-items: center;
+  }
+  /* Game container (relative so overlays sit "in" the game) */
+  .game {
+    position: relative;
+    width: var(--game-w);
+    height: var(--game-h);
+    outline: none;
+  }
+  /* Ruffle object fills container */
+  .game > object, .game > ruffle-object, .game > ruffle-embed, .game > ruffle-player {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  /* Overlays */
+  .ui {
+    position: absolute;
+    inset: 0;
+    pointer-events: none; /* only specific children accept events */
+  }
+  .joystick, .padcol {
+    position: absolute;
+    bottom: 3%;
+    pointer-events: auto;
+    touch-action: none;
+    user-select: none;
+  }
+  .joystick { left: 3%; width: 160px; height:160px; }
+  .joy-back, .joy-front {
+    position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);
+    image-rendering: pixelated;
+  }
+  /* Your assets are x4, show smaller (¼) */
+  .joy-back { width: 160px; height:160px; }   /* Joyback.png */
+  .joy-front { width: 64px; height:64px; }    /* Joyfront.png */
+  .padcol { right: 3%; width: 160px; }
+  .dpad { width: 160px; height:160px; position: relative; }
+  .dpad img { width: 100%; height: 100%; display: block; image-rendering: pixelated; }
+  .space-btn { width: 160px; margin-top: 16px; display:block; image-rendering: pixelated; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="game" id="gameBox">
+      <!-- RUFFLE -->
+      <object type="application/x-shockwave-flash" id="stage"
+              data="Duck Life 2 Deluxe Mobile edit.swf" width="100%" height="100%">
+        <param name="allowScriptAccess" value="sameDomain" />
+        <param name="quality" value="high" />
+        <param name="menu" value="true" />
+      </object>
+
+      <!-- TOUCH UI (overlays inside the game) -->
+      <div class="ui">
+        <!-- Left: joystick -->
+        <div class="joystick" id="joystick">
+          <img class="joy-back" src="Joyback.png" alt="">
+          <img class="joy-front" id="joyfront" src="Joyfront.png" alt="">
+        </div>
+
+        <!-- Right: D-Pad + Space -->
+        <div class="padcol">
+          <div class="dpad" id="dpad">
+            <img id="dpadDisplay" src="dpadunpressed.png" alt="">
+            <!-- invisible mask only for hit testing -->
+            <img id="dpadMask" src="dpadmask.png" alt="" style="display:none">
+          </div>
+          <img id="spaceBtn" class="space-btn" src="Space.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script>
+/* -------- RUFFLE KEY SENDER (focus + dispatch to player) -------- */
+function getRuffleEl() {
+  // Ruffle replaces <object id="stage"> with a custom element but keeps the id.
+  return document.getElementById('stage');
+}
+function focusRuffle() {
+  const el = getRuffleEl();
+  if (el) { el.tabIndex = 0; try { el.focus(); } catch(e){} }
+}
+function sendKeyToRuffle(key, type /* 'keydown' | 'keyup' */) {
+  const el = getRuffleEl();
+  if (!el) return;
+  const code = (key === ' ') ? 'Space' : key; // space uses code "Space"
+  // Dispatch on the Ruffle element
+  const evt1 = new KeyboardEvent(type, { key, code, bubbles: true, cancelable: true });
+  el.dispatchEvent(evt1);
+  // Also dispatch on window as a fallback
+  const evt2 = new KeyboardEvent(type, { key, code, bubbles: true, cancelable: true });
+  window.dispatchEvent(evt2);
+}
+
+/* Ensure player focuses on first interaction with any overlay */
+['touchstart','mousedown'].forEach(ev=>{
+  document.querySelector('.ui').addEventListener(ev, (e)=>{ focusRuffle(); }, {once:true, passive:true});
+});
+
+/* -------- D-PAD with mask colors -------- */
+const dpad = document.getElementById('dpad');
+const maskImg = document.getElementById('dpadMask');
+const displayImg = document.getElementById('dpadDisplay');
+
+const maskCanvas = document.createElement('canvas');
+const mctx = maskCanvas.getContext('2d', { willReadFrequently: true });
+
+let dpadReady = false;
+maskImg.addEventListener('load', () => {
+  maskCanvas.width = maskImg.naturalWidth;
+  maskCanvas.height = maskImg.naturalHeight;
+  mctx.drawImage(maskImg, 0, 0);
+  dpadReady = true;
+});
+
+function colorToDir([r,g,b,a]) {
+  const hex = (r<<16)|(g<<8)|b;
+  if (hex === 0x6900FF) return 'ArrowUp';    // up
+  if (hex === 0x1B00FF) return 'ArrowLeft';  // left
+  if (hex === 0xFF0000) return 'ArrowRight'; // right
+  if (hex === 0x7EFF00) return 'ArrowDown';  // down
+  return null;
+}
+const dirImage = {
+  ArrowUp: 'dpadup.png',
+  ArrowDown: 'dpaddown.png',
+  ArrowLeft: 'dpadleft.png',
+  ArrowRight: 'dpadright.png'
+};
+let activeDir = null;
+let dpadHeld = false;
+
+function readMaskDir(clientX, clientY) {
+  if (!dpadReady) return null;
+  const rect = dpad.getBoundingClientRect();
+  const x = Math.max(0, Math.min(rect.width, clientX - rect.left));
+  const y = Math.max(0, Math.min(rect.height, clientY - rect.top));
+  const sx = Math.floor(x * maskCanvas.width / rect.width);
+  const sy = Math.floor(y * maskCanvas.height / rect.height);
+  const pix = mctx.getImageData(sx, sy, 1, 1).data;
+  return colorToDir(pix);
+}
+function setDir(dir) {
+  if (dir === activeDir) return;
+  if (activeDir) sendKeyToRuffle(activeDir, 'keyup');
+  activeDir = dir;
+  if (activeDir) {
+    sendKeyToRuffle(activeDir, 'keydown');
+    displayImg.src = dirImage[activeDir];
+  } else {
+    displayImg.src = 'dpadunpressed.png';
+  }
+}
+function dpadPointerMove(e) {
+  const t = e.touches ? e.touches[0] : e;
+  const dir = readMaskDir(t.clientX, t.clientY);
+  setDir(dir);
+}
+function dpadPointerUp() {
+  dpadHeld = false;
+  setDir(null);
+}
+
+['mousedown','touchstart'].forEach(ev=>{
+  dpad.addEventListener(ev, (e)=>{
+    e.preventDefault();
+    dpadHeld = true;
+    dpadPointerMove(e);
+  }, {passive:false});
+});
+['mousemove','touchmove'].forEach(ev=>{
+  dpad.addEventListener(ev, (e)=>{ if (dpadHeld) { e.preventDefault(); dpadPointerMove(e); } }, {passive:false});
+});
+['mouseup','mouseleave','touchend','touchcancel'].forEach(ev=>{
+  dpad.addEventListener(ev, (e)=>{ e.preventDefault(); dpadPointerUp(); }, {passive:false});
+});
+
+/* -------- Space button -------- */
+const spaceBtn = document.getElementById('spaceBtn');
+function spaceDown(e){ e.preventDefault(); sendKeyToRuffle(' ', 'keydown'); }
+function spaceUp(e){ e.preventDefault(); sendKeyToRuffle(' ', 'keyup'); }
+spaceBtn.addEventListener('mousedown', spaceDown);
+spaceBtn.addEventListener('mouseup', spaceUp);
+spaceBtn.addEventListener('touchstart', spaceDown, {passive:false});
+spaceBtn.addEventListener('touchend', spaceUp);
+
+/* -------- Joystick (arrows) -------- */
+const joy = document.getElementById('joystick');
+const knob = document.getElementById('joyfront');
+const center = { x: 80, y: 80 };          // half of 160x160
+const radius = 56;                         // clamp distance
+const dead = 18;                           // deadzone px
+
+let joyHeld = false;
+function setArrow(axis, pos){ // axis: 'x' or 'y'
+  if (axis === 'x') {
+    if (pos > dead) { sendKeyToRuffle('ArrowRight','keydown'); sendKeyToRuffle('ArrowLeft','keyup'); }
+    else if (pos < -dead) { sendKeyToRuffle('ArrowLeft','keydown'); sendKeyToRuffle('ArrowRight','keyup'); }
+    else { sendKeyToRuffle('ArrowLeft','keyup'); sendKeyToRuffle('ArrowRight','keyup'); }
+  } else {
+    if (pos > dead) { sendKeyToRuffle('ArrowDown','keydown'); sendKeyToRuffle('ArrowUp','keyup'); }
+    else if (pos < -dead) { sendKeyToRuffle('ArrowUp','keydown'); sendKeyToRuffle('ArrowDown','keyup'); }
+    else { sendKeyToRuffle('ArrowUp','keyup'); sendKeyToRuffle('ArrowDown','keyup'); }
+  }
+}
+function joyMove(e){
+  const t = e.touches ? e.touches[0] : e;
+  const r = joy.getBoundingClientRect();
+  let dx = t.clientX - (r.left + center.x);
+  let dy = t.clientY - (r.top  + center.y);
+  const dist = Math.hypot(dx,dy);
+  if (dist > radius) { const s = radius/dist; dx*=s; dy*=s; }
+  knob.style.transform = `translate(${dx}px, ${dy}px) translate(-50%,-50%)`;
+  setArrow('x', dx);
+  setArrow('y', dy);
+}
+function joyEnd(){
+  joyHeld = false;
+  knob.style.transform = 'translate(-50%,-50%)';
+  ['ArrowUp','ArrowDown','ArrowLeft','ArrowRight'].forEach(k=>sendKeyToRuffle(k,'keyup'));
+}
+['mousedown','touchstart'].forEach(ev=>{
+  joy.addEventListener(ev, (e)=>{ e.preventDefault(); joyHeld = true; joyMove(e); }, {passive:false});
+});
+['mousemove','touchmove'].forEach(ev=>{
+  joy.addEventListener(ev, (e)=>{ if (joyHeld){ e.preventDefault(); joyMove(e); } }, {passive:false});
+});
+['mouseup','mouseleave','touchend','touchcancel'].forEach(ev=>{
+  joy.addEventListener(ev, (e)=>{ e.preventDefault(); joyEnd(); }, {passive:false});
+});
+</script>
+</body>
+</html>
