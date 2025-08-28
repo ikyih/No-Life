@@ -89,6 +89,71 @@
     </div>
   </div>
 
+/* -------- DEVICE DETECTION FOR IPHONE/IPAD -------- */
+const devices = [
+  /* iPhones Pro / Pro Max / Plus / Mini (landscape width > height) */
+  { name: "iPhone 14 Pro Max", ua:/iPhone/i, w: 430, h: 932, scale: 0.9 },
+  { name: "iPhone 14 Pro", ua:/iPhone/i, w: 430, h: 932, scale: 0.9 },
+  { name: "iPhone 14 Plus", ua:/iPhone/i, w: 430, h: 932, scale: 0.9 },
+  { name: "iPhone 14", ua:/iPhone/i, w: 430, h: 932, scale: 0.9 },
+  { name: "iPhone 13 Pro Max", ua:/iPhone/i, w: 430, h: 932, scale: 0.9 },
+  { name: "iPhone 13 Pro", ua:/iPhone/i, w: 430, h: 932, scale: 0.9 },
+  { name: "iPhone 13 Mini", ua:/iPhone/i, w: 375, h: 667, scale: 0.85 },
+  { name: "iPhone 12 Pro Max", ua:/iPhone/i, w: 430, h: 932, scale: 0.9 },
+  { name: "iPhone 12 Pro", ua:/iPhone/i, w: 430, h: 932, scale: 0.9 },
+  { name: "iPhone 12 Mini", ua:/iPhone/i, w: 375, h: 667, scale: 0.85 },
+  { name: "iPhone 11 Pro Max", ua:/iPhone/i, w: 414, h: 896, scale: 0.9 },
+  { name: "iPhone 11 Pro", ua:/iPhone/i, w: 414, h: 896, scale: 0.9 },
+  { name: "iPhone 11", ua:/iPhone/i, w: 414, h: 896, scale: 0.9 },
+  
+  /* iPads (landscape) */
+  { name: "iPad Pro 12.9 6th Gen", ua:/iPad/i, w: 1024, h: 1366, scale: 1.0 },
+  { name: "iPad Pro 11 4th Gen", ua:/iPad/i, w: 834, h: 1194, scale: 0.95 },
+  { name: "iPad Air 5th Gen", ua:/iPad/i, w: 820, h: 1180, scale: 0.9 },
+  { name: "iPad 10th Gen", ua:/iPad/i, w: 820, h: 1180, scale: 0.9 },
+  { name: "iPad Mini 6th Gen", ua:/iPad/i, w: 744, h: 1133, scale: 0.85 }
+];
+
+/* ---------- APPLY LAYOUT ---------- */
+function detectDevice() {
+  const ua = navigator.userAgent;
+  for (let dev of devices) {
+    if (dev.ua.test(ua)) return dev;
+  }
+  return null; // unknown
+}
+
+function applyDeviceLayout() {
+  const dev = detectDevice();
+  if (!dev) return;
+
+  const game = document.querySelector('.game');
+  const joystick = document.querySelector('.joystick');
+  const padcol = document.querySelector('.padcol');
+
+  // scale game container
+  game.style.width = dev.w + "px";
+  game.style.height = dev.h + "px";
+
+  // scale controls
+  const scale = dev.scale;
+  joystick.style.width = 160 * scale + "px";
+  joystick.style.height = 160 * scale + "px";
+  joystick.querySelector('.joy-back').style.width = 160 * scale + "px";
+  joystick.querySelector('.joy-back').style.height = 160 * scale + "px";
+  joystick.querySelector('.joy-front').style.width = 64 * scale + "px";
+  joystick.querySelector('.joy-front').style.height = 64 * scale + "px";
+
+  padcol.style.width = 160 * scale + "px";
+  padcol.querySelector('.dpad').style.width = 160 * scale + "px";
+  padcol.querySelector('.dpad').style.height = 160 * scale + "px";
+  padcol.querySelector('.space-btn').style.width = 160 * scale + "px";
+
+  console.log("Device detected:", dev.name, "scale:", dev.scale);
+}
+
+window.addEventListener('load', applyDeviceLayout);
+window.addEventListener('resize', applyDeviceLayout);
 <script>
 /* -------- RUFFLE KEY SENDER (focus + dispatch to player) -------- */
 function getRuffleEl() {
