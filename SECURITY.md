@@ -4,7 +4,8 @@
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 0.9     | :white_check_mark: |
+| 1.0     | :white_check_mark: |
+| 0.9     | :x:                |
 
 
 ## Supported Versions of NL2
